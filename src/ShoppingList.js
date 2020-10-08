@@ -5,7 +5,11 @@ export default function ShoppingList(props){
     return(
         <ul>
             {props.items.map((item, index) => (
-                <ShoppingItem key={index} item={item}/>
+                <ShoppingItem 
+                    key={index} 
+                    item={item}
+                    onDeleteItem={props.onDeleteItem}
+                    onCheckItem={props.onCheckItem}/>
             ))}
         </ul>
     )
