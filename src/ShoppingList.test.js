@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow } from 'enzyme'
-import toJson from 'enzyme-to-json'
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 import ShoppingList from './ShoppingList';
 
 describe(`ShoppingList component`, () => {
